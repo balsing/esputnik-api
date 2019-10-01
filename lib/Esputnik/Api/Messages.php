@@ -42,7 +42,7 @@ class Messages extends AbstractApi
      */
     public function show($id)
     {
-        return $this->get('messages/email/'.rawurlencode($id));
+        return $this->get('messages/email/' . rawurlencode($id));
     }
 
     /**
@@ -53,7 +53,7 @@ class Messages extends AbstractApi
      */
     public function remove($id)
     {
-        return $this->delete('messages/email/'.rawurlencode($id));
+        return $this->delete('messages/email/' . rawurlencode($id));
     }
 
     /**
@@ -65,6 +65,6 @@ class Messages extends AbstractApi
      */
     public function update($id, EmailMessage $emailMessage)
     {
-        return $this->put('messages/email/'.rawurlencode($id), $emailMessage);
+        return $this->put('messages/email/' . rawurlencode($id), $emailMessage);
     }
 }

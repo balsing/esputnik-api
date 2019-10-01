@@ -11,10 +11,12 @@ Uses [Esputnik API](https://esputnik.com.ua/api/index.html).
 
 ## Установка
 1. Добавить в секцию ``repositories``:
+```
 {
     "type": "git",
-    "url": "ssh://git@git.crtweb.ru:22681/youtool/esputnik-api.git"
+    "url": "https://git.crtweb.ru/youtool/esputnik-api.git"
 }
+```
 
 2. Выполнить команду 
 

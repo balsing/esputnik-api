@@ -13,6 +13,6 @@ class Group extends AbstractApi
      */
     public function contacts($id, $parameters = [])
     {
-        return $this->get('group/'.rawurlencode($id).'/contacts', [], $parameters);
+        return $this->get('group/' . rawurlencode($id) . '/contacts', [], $parameters);
     }
 }

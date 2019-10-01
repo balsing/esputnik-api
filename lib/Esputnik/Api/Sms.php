@@ -2,6 +2,9 @@
 
 namespace Esputnik\Api;
 
+/**
+ * Класс для работы с эндпоинтами SMS.
+ */
 class Sms extends AbstractApi
 {
     /**

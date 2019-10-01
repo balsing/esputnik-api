@@ -47,7 +47,7 @@ class Message extends AbstractApi
             $queryParams['recipients'] = $recipients;
         }
 
-        return $this->post('message/'.rawurlencode($id).'/send', $queryParams);
+        return $this->post('message/' . rawurlencode($id) . '/send', $queryParams);
     }
 
     /**
@@ -68,7 +68,7 @@ class Message extends AbstractApi
             'fromName' => $fromName
         ];
 
-        return $this->post('message/'.rawurlencode($id).'/smartsend', $queryParams);
+        return $this->post('message/' . rawurlencode($id) . '/smartsend', $queryParams);
     }
 
     /**
