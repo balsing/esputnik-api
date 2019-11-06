@@ -25,7 +25,7 @@ composer require youtool/esputnik-api-client
 ```
 
 
-## Basic usage
+## Использование
 
 ```php
 <?php
@@ -40,10 +40,10 @@ $repositories = $client->api('balance')->show();
 
 From `$client` object, you can access to all namespaces.
 
-## Inspired by
+## Создан на основе
 
 [n10ty/php-esputnik-api](https://github.com/n10ty/php-esputnik-api)
 
-## License
+## Лицензия
 
 MIT License
