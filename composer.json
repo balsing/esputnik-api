@@ -1,5 +1,5 @@
 {
-    "name": "youtool/esputnik-api-client",
+    "name": "balsing/esputnik-api-client",
     "description": "Библиотека для e-sputnik.com REST API",
     "type": "library",
     "keywords": ["esputnik", "e-sputnik.com", "api"],
