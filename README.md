@@ -14,14 +14,14 @@ Uses [Esputnik API](https://esputnik.com.ua/api/index.html).
 ```
 {
     "type": "git",
-    "url": "https://git.crtweb.ru/youtool/esputnik-api.git"
+    "url": "https://git.crtweb.ru/creative-packages/esputnik-api-library.git"
 }
 ```
 
 2. Выполнить команду 
 
 ```
-composer require youtool/esputnik-api-client
+composer require creative-packages/esputnik-api-library
 ```
 
 
