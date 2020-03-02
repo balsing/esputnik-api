@@ -14,14 +14,14 @@ Uses [Esputnik API](https://esputnik.com.ua/api/index.html).
 ```
 {
     "type": "git",
-    "url": "https://git.crtweb.ru/creative-packages/esputnik-api-library.git"
+    "url": "https://github.com/balsing/esputnik-api-library.git"
 }
 ```
 
 2. Выполнить команду 
 
 ```
-composer require creative-packages/esputnik-api-library
+composer require balsing/esputnik-api-library
 ```
 
 
