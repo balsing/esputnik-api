@@ -9,6 +9,7 @@ use Esputnik\Api\Contact;
 use Esputnik\Api\Contacts;
 use Esputnik\Api\Group;
 use Esputnik\Api\Groups;
+use Esputnik\Api\Message;
 use Esputnik\Api\Sms;
 use Esputnik\Exception\InvalidArgumentException;
 use Esputnik\HttpClient\HttpClient;
@@ -58,6 +59,9 @@ class Client
                 break;
             case 'sms':
                 $api = new Sms($this);
+                break;
+            case 'message':
+                $api = new Message($this);
                 break;
             default:
                 throw new InvalidArgumentException(sprintf('Undefined api instance called: "%s"', $name));
